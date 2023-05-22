@@ -1,0 +1,47 @@
+.body {
+    background-image: radial-gradient(circle at center, rgb(138, 0, 0), rgb(196, 0, 0), red, rgb(174, 113, 0), rgb(203, 132, 0), orange, rgb(188, 188, 0), yellow);
+}
+
+.Name_shop {
+    font-family: 'Kaushan Script';
+    text-align: center;
+}
+
+.pages_list {
+    border: 20px solid black;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    list-style: none ;
+}
+
+.pages-item {
+    font-family: 'Kaushan Script';
+
+}
+
+.itachi-index {
+    border: 5px solid blueviolet;
+    width: 300px;
+    height: 300px;
+}   
+
+.sasuke {
+    display: flex;
+    justify-content: space-around;
+    list-style: none ;
+}
+
+
+.body_panama {
+    background-image: radial-gradient(circle at center,  rgba(0, 0, 60, 0.674), rgba(0, 0, 118, 0.685), rgba(0, 0, 195, 0.685), rgba(0, 0, 204, 0.696), blueviolet, blue);
+
+}
+
+.emblema {
+    border: 5px solid blue;
+    width: 100px;
+    height: 100px;
+    margin-left: 630px;
+
+}
