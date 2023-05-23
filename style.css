@@ -45,3 +45,87 @@
     margin-left: 630px;
 
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle at center,  rgba(0, 0, 60, 0.674), rgba(0, 0, 118, 0.685), rgba(0, 0, 195, 0.685), rgba(0, 0, 204, 0.696), blueviolet, blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1s linear 250ms;
+}
+.T-shirts:hover .overlay {
+    opacity: 1;
+}
+   
+
+.T-shirts {
+    width: 250px;
+    height: 380px;
+    border: 5px solid white;
+    position: relative;
+}
+
+.Kakashi {
+    width: 250px;
+    height: 250px;
+}
+
+.store {
+    width: 600px;
+    height: 600px;
+    border: 5px solid orange;
+    position: relative;
+}
+
+.size {
+    
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 1px;
+}
+
+.div1 {
+    border: 5px solid white;
+    width: 51px;
+    height: 51px;
+    margin-top: 400px;
+}
+
+.futher {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none ;
+
+}
+
+.h1 {
+    text-align: center;
+}
+
+.buy {
+    margin-right: 100px;
+    border: 5px solid orange;
+    width: 205px;
+    background-color: rgb(138, 0, 0);
+    margin-top: -200px;
+    margin-left: 150px;
+
+
+}
+
+
+.father {
+    display: flex;
+    justify-content: space-around;
+    list-style: none ;
+}
+
+
+
