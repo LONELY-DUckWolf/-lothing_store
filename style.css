@@ -151,3 +151,9 @@
     border: 5px solid blueviolet;
     margin-left: 150px;
 }
+
+
+.box1 {
+    display: flex;
+    justify-content: flex-start;
+}

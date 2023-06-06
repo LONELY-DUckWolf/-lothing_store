@@ -1,87 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Clothing Shop Anime.</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
 </head>
+
 <body class="body">
 
-    <h2 class="h1">Itachi T-shirt - womens.</h2>
-
-    <ul class="futher">
-
-        
-
-        <li>
-            <img class="store" src="https://www.fatline.com.ua/images/products/view/zhenskaya-3d-futbolka-itachi-uchiha-rogue-ninja.jpg" alt="kakashi">
-        </li>
+    <h2 class="h1">T-shirt Itachi.</h2>
 
 
-        <li class="div1">
-            <h1 class="buy"><b>11 dolars Buy</b></h1> 
-            <div class="overlay">
-                <button class="button"><h1><b>11 dolars Buy</b></h1></button>
+    <div class="box1">
+        <img class="store"
+            src="https://www.fatline.com.ua/images/products/view/zhenskaya-3d-futbolka-itachi-uchiha-rogue-ninja.jpg"
+            alt="kakashi">
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Buy
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Please feel the form!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="input-group">
+                            <span class="input-group-text">First name and phone</span>
+                            <input type="text" aria-label="First name" class="form-control">
+                            <input type="text" aria-label="phone" class="form-control">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
             </div>
-        
-        </li>
-    
-        <li class="div1">
-            <p class="size"><b>2XS</b></p> 
-            <div class="overlay">
-                <button class="button"><a href="./kakashi-T-shirt.html"></a></button>
-            </div>
-        
-        </li>
+        </div>
 
-        <li class="div1">
-            <p class="size"><b>XS</b></p> 
-            <div class="overlay">
-                <button class="button"><a href="./kakashi-T-shirt.html"></a></button>
-            </div>
-        
-        </li>
+             <ul class="futher">
 
-        <li class="div1">
-            <p class="size"><b>S</b></p>
-            <div class="overlay">
-                <button class="button"><a href="./kakashi-T-shirt.html"></a></button>
-            </div>
-        
-        </li>
+            <li class="div1">
+                <p class="size"><b>2XS</b></p>
 
-        <li class="div1">
-            <p class="size"><b>M</b></p>
-            <div class="overlay">
-                <button class="button"><a href="./kakashi-T-shirt.html"></a></button>
-            </div>
-        
-        </li>
+            </li>
 
-        <li class="div1">
-            <p class="size"><b>L</b></p>
-            <div class="overlay">
-                <button class="button"><a href="./kakashi-T-shirt.html"></a></button>
-            </div>
-        
-        </li>
+            <li class="div1">
+                <p class="size"><b>XS</b></p>
+                
 
-        <li class="div1">
-            <p class="size"><b>XL</b></p>
-            <div class="overlay">
-                <button class="button"><a href="./kakashi-T-shirt.html"></a></button>
-            </div>
-        
-        </li>
+            </li>
 
-        
-    </ul>
+            <li class="div1">
+                <p class="size"><b>S</b></p>
+                
+
+            </li>
+
+            <li class="div1">
+                <p class="size"><b>M</b></p>
+                
+
+            </li>
+
+            <li class="div1">
+                <p class="size"><b>L</b></p>
+                
+
+            </li>
+
+            <li class="div1">
+                <p class="size"><b>XL</b></p>
+
+            </li>
+
+
+        </ul>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
